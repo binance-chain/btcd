@@ -1,17 +1,17 @@
-// Copyright (c) 2017 The btcsuite developers
+// Copyright (c) 2017 The binance-chain developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
 package netsync
 
 import (
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/mempool"
-	"github.com/btcsuite/btcd/peer"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/binance-chain/btcd/blockchain"
+	"github.com/binance-chain/btcd/chaincfg"
+	"github.com/binance-chain/btcd/chaincfg/chainhash"
+	"github.com/binance-chain/btcd/mempool"
+	"github.com/binance-chain/btcd/peer"
+	"github.com/binance-chain/btcd/wire"
+	"github.com/binance-chain/btcutil"
 )
 
 // PeerNotifier exposes methods to notify peers of status changes to

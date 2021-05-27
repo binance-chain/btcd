@@ -1,13 +1,13 @@
-// Copyright (c) 2014-2016 The btcsuite developers
+// Copyright (c) 2014-2016 The binance-chain developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
 package mining
 
 import (
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/binance-chain/btcd/blockchain"
+	"github.com/binance-chain/btcd/wire"
+	"github.com/binance-chain/btcutil"
 )
 
 const (

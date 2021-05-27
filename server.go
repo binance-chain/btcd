@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2017 The btcsuite developers
+// Copyright (c) 2013-2017 The binance-chain developers
 // Copyright (c) 2015-2018 The Decred developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
@@ -22,22 +22,22 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/btcsuite/btcd/addrmgr"
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/blockchain/indexers"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/connmgr"
-	"github.com/btcsuite/btcd/database"
-	"github.com/btcsuite/btcd/mempool"
-	"github.com/btcsuite/btcd/mining"
-	"github.com/btcsuite/btcd/mining/cpuminer"
-	"github.com/btcsuite/btcd/netsync"
-	"github.com/btcsuite/btcd/peer"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcutil/bloom"
+	"github.com/binance-chain/btcd/addrmgr"
+	"github.com/binance-chain/btcd/blockchain"
+	"github.com/binance-chain/btcd/blockchain/indexers"
+	"github.com/binance-chain/btcd/chaincfg"
+	"github.com/binance-chain/btcd/chaincfg/chainhash"
+	"github.com/binance-chain/btcd/connmgr"
+	"github.com/binance-chain/btcd/database"
+	"github.com/binance-chain/btcd/mempool"
+	"github.com/binance-chain/btcd/mining"
+	"github.com/binance-chain/btcd/mining/cpuminer"
+	"github.com/binance-chain/btcd/netsync"
+	"github.com/binance-chain/btcd/peer"
+	"github.com/binance-chain/btcd/txscript"
+	"github.com/binance-chain/btcd/wire"
+	"github.com/binance-chain/btcutil"
+	"github.com/binance-chain/btcutil/bloom"
 )
 
 const (

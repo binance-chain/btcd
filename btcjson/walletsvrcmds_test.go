@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2020 The btcsuite developers
+// Copyright (c) 2014-2020 The binance-chain developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -11,8 +11,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/btcsuite/btcd/btcjson"
-	"github.com/btcsuite/btcutil"
+	"github.com/binance-chain/btcd/btcjson"
+	"github.com/binance-chain/btcutil"
 )
 
 // TestWalletSvrCmds tests all of the wallet server commands marshal and

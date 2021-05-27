@@ -1,10 +1,10 @@
-// Copyright (c) 2017 The btcsuite developers
+// Copyright (c) 2017 The binance-chain developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
 package netsync
 
-import "github.com/btcsuite/btclog"
+import "github.com/binance-chain/btclog"
 
 // log is a logger that is initialized with no output filters.  This
 // means the package will not perform any logging by default until the caller

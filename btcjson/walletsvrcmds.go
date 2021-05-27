@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2020 The btcsuite developers
+// Copyright (c) 2014-2020 The binance-chain developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -12,7 +12,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/btcsuite/btcutil"
+	"github.com/binance-chain/btcutil"
 )
 
 // AddMultisigAddressCmd defines the addmutisigaddress JSON-RPC command.

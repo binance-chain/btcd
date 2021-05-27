@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2017 The btcsuite developers
+// Copyright (c) 2013-2017 The binance-chain developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/database"
-	"github.com/btcsuite/btcutil"
+	"github.com/binance-chain/btcd/chaincfg/chainhash"
+	"github.com/binance-chain/btcd/database"
+	"github.com/binance-chain/btcutil"
 )
 
 // BehaviorFlags is a bitmask defining tweaks to the normal behavior when

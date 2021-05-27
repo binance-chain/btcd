@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The btcsuite developers
+// Copyright (c) 2015-2016 The binance-chain developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -11,10 +11,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/database"
-	"github.com/btcsuite/btcd/database/ffldb"
-	"github.com/btcsuite/btcutil"
+	"github.com/binance-chain/btcd/chaincfg"
+	"github.com/binance-chain/btcd/database"
+	"github.com/binance-chain/btcd/database/ffldb"
+	"github.com/binance-chain/btcutil"
 )
 
 // dbType is the database type name for this driver.

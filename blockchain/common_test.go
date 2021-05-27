@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2017 The btcsuite developers
+// Copyright (c) 2013-2017 The binance-chain developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -14,13 +14,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/database"
-	_ "github.com/btcsuite/btcd/database/ffldb"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/binance-chain/btcd/chaincfg"
+	"github.com/binance-chain/btcd/chaincfg/chainhash"
+	"github.com/binance-chain/btcd/database"
+	_ "github.com/binance-chain/btcd/database/ffldb"
+	"github.com/binance-chain/btcd/txscript"
+	"github.com/binance-chain/btcd/wire"
+	"github.com/binance-chain/btcutil"
 )
 
 const (

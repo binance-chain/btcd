@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2017 The btcsuite developers
+// Copyright (c) 2013-2017 The binance-chain developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -21,16 +21,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/connmgr"
-	"github.com/btcsuite/btcd/database"
-	_ "github.com/btcsuite/btcd/database/ffldb"
-	"github.com/btcsuite/btcd/mempool"
-	"github.com/btcsuite/btcd/peer"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/go-socks/socks"
+	"github.com/binance-chain/btcd/blockchain"
+	"github.com/binance-chain/btcd/chaincfg"
+	"github.com/binance-chain/btcd/chaincfg/chainhash"
+	"github.com/binance-chain/btcd/connmgr"
+	"github.com/binance-chain/btcd/database"
+	_ "github.com/binance-chain/btcd/database/ffldb"
+	"github.com/binance-chain/btcd/mempool"
+	"github.com/binance-chain/btcd/peer"
+	"github.com/binance-chain/btcutil"
+	"github.com/binance-chain/go-socks/socks"
 	flags "github.com/jessevdk/go-flags"
 )
 

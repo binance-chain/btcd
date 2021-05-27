@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The btcsuite developers
+// Copyright (c) 2015-2016 The binance-chain developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -7,7 +7,7 @@ package database
 import (
 	"fmt"
 
-	"github.com/btcsuite/btclog"
+	"github.com/binance-chain/btclog"
 )
 
 // Driver defines a structure for backend drivers to use when they registered

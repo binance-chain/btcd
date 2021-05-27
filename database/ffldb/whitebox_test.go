@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The btcsuite developers
+// Copyright (c) 2015-2016 The binance-chain developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -17,12 +17,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/database"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/goleveldb/leveldb"
-	ldberrors "github.com/btcsuite/goleveldb/leveldb/errors"
+	"github.com/binance-chain/btcd/chaincfg"
+	"github.com/binance-chain/btcd/database"
+	"github.com/binance-chain/btcd/wire"
+	"github.com/binance-chain/btcutil"
+	"github.com/binance-chain/goleveldb/leveldb"
+	ldberrors "github.com/binance-chain/goleveldb/leveldb/errors"
 )
 
 var (

@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The btcsuite developers
+// Copyright (c) 2015-2016 The binance-chain developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -145,6 +145,6 @@ raw message bytes using a format similar to hexdump -C.
 Bitcoin Improvement Proposals
 
 This package supports all BIPS supported by the wire package.
-(https://pkg.go.dev/github.com/btcsuite/btcd/wire#hdr-Bitcoin_Improvement_Proposals)
+(https://pkg.go.dev/github.com/binance-chain/btcd/wire#hdr-Bitcoin_Improvement_Proposals)
 */
 package peer

@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2016 The btcsuite developers
+// Copyright (c) 2013-2016 The binance-chain developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -9,11 +9,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/database"
-	_ "github.com/btcsuite/btcd/database/ffldb"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/binance-chain/btcd/chaincfg"
+	"github.com/binance-chain/btcd/database"
+	_ "github.com/binance-chain/btcd/database/ffldb"
+	"github.com/binance-chain/btcd/wire"
+	"github.com/binance-chain/btcutil"
 	flags "github.com/jessevdk/go-flags"
 )
 

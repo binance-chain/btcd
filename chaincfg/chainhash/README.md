@@ -1,9 +1,9 @@
 chainhash
 =========
 
-[![Build Status](https://github.com/btcsuite/btcd/workflows/Build%20and%20Test/badge.svg)](https://github.com/btcsuite/btcd/actions)
+[![Build Status](https://github.com/binance-chain/btcd/workflows/Build%20and%20Test/badge.svg)](https://github.com/binance-chain/btcd/actions)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://pkg.go.dev/github.com/btcsuite/btcd/chaincfg/chainhash)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://pkg.go.dev/github.com/binance-chain/btcd/chaincfg/chainhash)
 =======
 
 chainhash provides a generic hash type and associated functions that allows the
@@ -12,13 +12,13 @@ specific hash algorithm to be abstracted.
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/btcsuite/btcd/chaincfg/chainhash
+$ go get -u github.com/binance-chain/btcd/chaincfg/chainhash
 ```
 
 ## GPG Verification Key
 
 All official release tags are signed by Conformal so users can ensure the code
-has not been tampered with and is coming from the btcsuite developers.  To
+has not been tampered with and is coming from the binance-chain developers.  To
 verify the signature perform the following:
 
 - Download the public key from the Conformal website at
