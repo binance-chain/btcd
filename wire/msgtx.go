@@ -439,6 +439,12 @@ func (msg *MsgTx) BtcDecode(r io.Reader, pver uint32, enc MessageEncoding) error
 	}
 	msg.Version = int32(version)
 
+	// Ignore time field
+	_, err = binarySerializer.Uint32(r, littleEndian)
+	if err != nil {
+		return err
+	}
+
 	count, err := ReadVarInt(r, pver)
 	if err != nil {
 		return err
