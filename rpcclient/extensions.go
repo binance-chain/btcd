@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017 The binance-chain developers
+// Copyright (c) 2014-2017 All BNB Chain Developers
 // Copyright (c) 2015-2017 The Decred developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
@@ -56,7 +56,8 @@ func (c *Client) DebugLevelAsync(levelSpec string) FutureDebugLevelResult {
 // specification.
 //
 // The levelspec can be either a debug level or of the form:
-// 	<subsystem>=<level>,<subsystem2>=<level2>,...
+//
+//	<subsystem>=<level>,<subsystem2>=<level2>,...
 //
 // Additionally, the special keyword 'show' can be used to get a list of the
 // available subsystems.

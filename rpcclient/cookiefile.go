@@ -1,5 +1,5 @@
 // Copyright (c) 2017 The Namecoin developers
-// Copyright (c) 2019 The binance-chain developers
+// Copyright (c) 2019 All BNB Chain Developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 

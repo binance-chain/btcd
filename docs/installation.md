@@ -10,7 +10,7 @@ details on how to install on the supported operating systems.
 ## GPG Verification Key
 
 All official release tags are signed by Conformal so users can ensure the code
-has not been tampered with and is coming from the binance-chain developers.  To
+has not been tampered with and is coming from All BNB Chain Developers.  To
 verify the signature perform the following:
 
 * Download the Conformal public key:

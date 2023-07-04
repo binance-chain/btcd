@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2016 The binance-chain developers
+// Copyright (c) 2013-2016 All BNB Chain Developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -114,16 +114,18 @@ const (
 // transaction from one that would require a different parsing logic.
 //
 // Position of FLAG in a bitcoin tx message:
-//   ┌─────────┬────────────────────┬─────────────┬─────┐
-//   │ VERSION │ FLAG               │ TX-IN-COUNT │ ... │
-//   │ 4 bytes │ 2 bytes (optional) │ varint      │     │
-//   └─────────┴────────────────────┴─────────────┴─────┘
+//
+//	┌─────────┬────────────────────┬─────────────┬─────┐
+//	│ VERSION │ FLAG               │ TX-IN-COUNT │ ... │
+//	│ 4 bytes │ 2 bytes (optional) │ varint      │     │
+//	└─────────┴────────────────────┴─────────────┴─────┘
 //
 // Zooming into the FLAG field:
-//   ┌── FLAG ─────────────┬────────┐
-//   │ TxFlagMarker (0x00) │ TxFlag │
-//   │ 1 byte              │ 1 byte │
-//   └─────────────────────┴────────┘
+//
+//	┌── FLAG ─────────────┬────────┐
+//	│ TxFlagMarker (0x00) │ TxFlag │
+//	│ 1 byte              │ 1 byte │
+//	└─────────────────────┴────────┘
 const TxFlagMarker = 0x00
 
 // TxFlag is the second byte of the FLAG field in a bitcoin tx message.

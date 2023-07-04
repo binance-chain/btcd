@@ -1,11 +1,11 @@
-// Copyright (c) 2014 The binance-chain developers
+// Copyright (c) 2014 All BNB Chain Developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
 /*
 Package addrmgr implements concurrency safe Bitcoin address manager.
 
-Address Manager Overview
+# Address Manager Overview
 
 In order maintain the peer-to-peer Bitcoin network, there needs to be a source
 of addresses to connect to as nodes come and go.  The Bitcoin protocol provides

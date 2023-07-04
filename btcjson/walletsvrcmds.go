@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2020 The binance-chain developers
+// Copyright (c) 2014-2020 All BNB Chain Developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -871,7 +871,8 @@ func (s *ScriptPubKey) UnmarshalJSON(data []byte) error {
 //
 // Descriptors are typically ranged when specified in the form of generic HD
 // chain paths.
-//   Example of a ranged descriptor: pkh(tpub.../*)
+//
+//	Example of a ranged descriptor: pkh(tpub.../*)
 //
 // The value can be an int to specify the end of the range, or the range
 // itself, as []int{begin, end}.

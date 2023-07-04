@@ -1,9 +1,10 @@
-// Copyright (c) 2014-2015 The binance-chain developers
+// Copyright (c) 2014-2015 All BNB Chain Developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
 // This file is ignored during the regular build due to the following build tag.
 // This build tag is set during go generate.
+//go:build gensecp256k1
 // +build gensecp256k1
 
 package btcec
