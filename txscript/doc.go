@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2017 The binance-chain developers
+// Copyright (c) 2013-2017 All BNB Chain Developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -12,7 +12,7 @@ overview to provide information on how to use the package.
 This package provides data structures and functions to parse and execute
 bitcoin transaction scripts.
 
-Script Overview
+# Script Overview
 
 Bitcoin transaction scripts are written in a stack-base, FORTH-like language.
 
@@ -30,7 +30,7 @@ is used to prove the the spender is authorized to perform the transaction.
 One benefit of using a scripting language is added flexibility in specifying
 what conditions must be met in order to spend bitcoins.
 
-Errors
+# Errors
 
 Errors returned by this package are of type txscript.Error.  This allows the
 caller to programmatically determine the specific error by examining the

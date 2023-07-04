@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017 The binance-chain developers
+// Copyright (c) 2014-2017 All BNB Chain Developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 

@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2017 The binance-chain developers
+// Copyright (c) 2013-2017 All BNB Chain Developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -291,7 +291,7 @@ func DisasmString(buf []byte) (string, error) {
 	return disbuf.String(), err
 }
 
-// removeOpcode will remove any opcode matching ``opcode'' from the opcode
+// removeOpcode will remove any opcode matching “opcode” from the opcode
 // stream in pkscript
 func removeOpcode(pkscript []parsedOpcode, opcode byte) []parsedOpcode {
 	retScript := make([]parsedOpcode, 0, len(pkscript))

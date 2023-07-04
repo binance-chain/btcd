@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The binance-chain developers
+// Copyright (c) 2015-2016 All BNB Chain Developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -318,13 +318,14 @@ func (iter *Iterator) ForceReseek() {
 // unexpected keys and/or values.
 //
 // For example:
-//   iter := t.Iterator(nil, nil)
-//   for iter.Next() {
-//   	if someCondition {
-//   		t.Delete(iter.Key())
-//   		iter.ForceReseek()
-//   	}
-//   }
+//
+//	iter := t.Iterator(nil, nil)
+//	for iter.Next() {
+//		if someCondition {
+//			t.Delete(iter.Key())
+//			iter.ForceReseek()
+//		}
+//	}
 func (t *Mutable) Iterator(startKey, limitKey []byte) *Iterator {
 	iter := &Iterator{
 		t:        t,

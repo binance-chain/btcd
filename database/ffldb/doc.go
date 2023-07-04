@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The binance-chain developers
+// Copyright (c) 2015-2016 All BNB Chain Developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -10,7 +10,7 @@ This driver is the recommended driver for use with btcd.  It makes use leveldb
 for the metadata, flat files for block storage, and checksums in key areas to
 ensure data integrity.
 
-Usage
+# Usage
 
 This package is a driver to the database package and provides the database type
 of "ffldb".  The parameters the Open and Create functions take are the

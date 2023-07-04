@@ -1,10 +1,11 @@
-// Copyright 2015 The binance-chain developers
+// Copyright 2015 All BNB Chain Developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
 // This file is ignored during the regular build due to the following build tag.
 // It is called by go generate and used to automatically generate pre-computed
 // tables used to accelerate operations.
+//go:build ignore
 // +build ignore
 
 package main
@@ -41,7 +42,7 @@ func main() {
 	encoded := make([]byte, base64.StdEncoding.EncodedLen(compressed.Len()))
 	base64.StdEncoding.Encode(encoded, compressed.Bytes())
 
-	fmt.Fprintln(fi, "// Copyright (c) 2015 The binance-chain developers")
+	fmt.Fprintln(fi, "// Copyright (c) 2015 All BNB Chain Developers")
 	fmt.Fprintln(fi, "// Use of this source code is governed by an ISC")
 	fmt.Fprintln(fi, "// license that can be found in the LICENSE file.")
 	fmt.Fprintln(fi)

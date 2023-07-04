@@ -47,7 +47,7 @@ $ go get -u github.com/binance-chain/btcd/btcjson
 ## GPG Verification Key
 
 All official release tags are signed by Conformal so users can ensure the code
-has not been tampered with and is coming from the binance-chain developers.  To
+has not been tampered with and is coming from All BNB Chain Developers.  To
 verify the signature perform the following:
 
 - Download the public key from the Conformal website at

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Copyright (c) 2016 Company 0, LLC.
-# Copyright (c) 2016-2020 The binance-chain developers
+# Copyright (c) 2016-2020 All BNB Chain Developers
 # Use of this source code is governed by an ISC
 # license that can be found in the LICENSE file.
 
